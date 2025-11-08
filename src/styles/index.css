@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+  /* === Fonts === */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Montserrat', sans-serif;
+
+  /* === Backgrounds === */
+  --color-bg-light: #f5efe6;  /* bege claro, suave e acolhedor */
+  --color-bg-dark: #3a3a3a;   /* cinza médio-escuro, elegante */
+
+  /* === Text === */
+  --color-text-dark: #2e2b28;   /* texto principal escuro */
+  --color-text-light: #ffffff;  /* texto branco */
+  --color-text-accent: #d8792f; /* laranja de destaque */
+  --color-text-alert: #d64242;  /* vermelho sutil para avisos/erros */
+
+  /* === Cards === */
+  --color-card-green: #4caf50;  /* verde moderno para sucesso */
+  --color-card-yellow: #f2c94c; /* amarelo quente para atenção */
+
+  /* === Hover States === */
+  --color-card-green-hover: #43a047;   /* verde mais escuro */
+  --color-card-yellow-hover: #eab839;  /* amarelo levemente queimado */
+  --color-accent-hover: #b86423;       /* hover do laranja principal */
+  --color-alert-hover: #bf3434;        /* hover do vermelho */
+
+  /* === Borders, Neutros e Extras === */
+  --color-border: #ded7ce;       /* bordas suaves */
+  --color-muted: #a79e95;        /* detalhes neutros */
+  --color-card-bg: #ffffff;      /* fundo de cards */
+
+  /* === Shadows & Effects === */
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-strong: 0 6px 18px rgba(0, 0, 0, 0.15);
+
+  /* === Transitions === */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.4s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
